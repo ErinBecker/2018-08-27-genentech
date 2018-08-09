@@ -14,8 +14,8 @@ swc_installer   : "http://files.software-carpentry.org/SWCarpentryInstaller.exe"
 dc_site        : "http://datacarpentry.org"
 dc_twitter     : "http://twitter.com/datacarpentry"
 #swc_vm          : "https://docs.google.com/uc?id=0B4Kr6DYkzkQtSTZLQzF4aVB4NDQ&export=download"
-dc_pre_assessment: "https://www.surveymonkey.com/r/dcpreworkshopassessment"
-dc_post_assessment: "https://www.surveymonkey.com/r/dcpostworkshopassessment"
+dc_pre_survey: "https://www.surveymonkey.com/r/dcpreworkshopassessment?workshop_id="
+dc_post_survey: "https://www.surveymonkey.com/r/dcpostworkshopassessment?workshop_id="
 
 # Keepting the old survey links here just in case
 dc_pre_survey   : "https://www.surveymonkey.com/r/dc_pre_workshop_v1"
@@ -27,4 +27,7 @@ markdown        : kramdown
 kramdown        :
   entity_output : as_input # &mdash; is output as &mdash;
   smart_quotes  : [39, 39, 34, 34] # decimal for left/right single/double quotes
-exclude         : [tools]
+exclude         : [tools
+
+
+
