@@ -132,11 +132,14 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <h2>Preliminary Schedule</h2>
 
-<!-- DO NOT EDIT SURVEY LINKS -->
+<hr/>
+
+{% comment %} 
+ SURVEYS - DO NOT EDIT SURVEY LINKS 
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
 <p>Please be sure to complete these surveys before and after the workshop.</p>
-{% if site.carpentry == "swc" %}
+{% if site.carpentry == "swc" %} 
 <p><a href="{{ site.swc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.swc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
 {% elsif site.carpentry == "dc" %}
